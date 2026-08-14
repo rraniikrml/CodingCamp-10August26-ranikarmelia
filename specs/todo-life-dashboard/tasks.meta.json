@@ -1,0 +1,258 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project structure and create empty entry-point files": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696360007
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696409112
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696780358
+      }
+    ],
+    "2.1 Write the full `index.html` structure": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696363244
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696789393
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696943975
+      }
+    ],
+    "3.1 Write CSS custom properties, typography, and global reset": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696365256
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696789975
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696945352
+      }
+    ],
+    "3.2 Implement CSS Grid macro layout and section boundaries": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696365927
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696952104
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786697414628
+      }
+    ],
+    "3.3 Implement responsive breakpoints and Flexbox intra-section layout": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696367674
+      }
+    ],
+    "4.1 Write `StorageService` with typed read/write methods": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696368792
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696952824
+      },
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786697417051
+      }
+    ],
+    "5.1 Write `UIHelpers` utility functions": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696369442
+      }
+    ],
+    "6.1 Write `ClockModule.tick()` and `ClockModule.updateGreeting()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696370874
+      }
+    ],
+    "6.2 Write `ClockModule.init()` and visibility change handler": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696371562
+      }
+    ],
+    "7. Checkpoint — ensure all tests pass to this point": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696372862
+      }
+    ],
+    "8.1 Write `TimerModule` state machine, `formatSeconds()`, and display helpers": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696373675
+      }
+    ],
+    "8.3 Write `TimerModule.setDuration()`, `start()`, `stop()`, `reset()`, and `tick()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696374825
+      }
+    ],
+    "8.5 Write `TimerModule.notifyExpiry()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696376076
+      }
+    ],
+    "9.1 Write `TaskModule.init()` and `render()` / `renderItem()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696377156
+      }
+    ],
+    "9.2 Write `TaskModule.add(text)`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696378631
+      }
+    ],
+    "9.5 Write `TaskModule.toggle(id)`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696379606
+      }
+    ],
+    "9.7 Write `TaskModule.startEdit()`, `saveEdit()`, and `cancelEdit()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696381091
+      }
+    ],
+    "9.9 Write `TaskModule.delete(id)`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696382831
+      }
+    ],
+    "10. Checkpoint — ensure all tests pass to this point": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696383843
+      }
+    ],
+    "11.1 Write `LinkModule.normaliseUrl(raw)` and `LinkModule.init()` / `render()` / `renderItem()`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696385368
+      }
+    ],
+    "11.3 Write `LinkModule.add(label, url)`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696385985
+      }
+    ],
+    "11.4 Write `LinkModule.delete(id)` and `LinkModule.open(url)`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696386842
+      }
+    ],
+    "12.1 Write top-level `init()` function and feature detection": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696388246
+      }
+    ],
+    "12.2 Attach event delegation listeners for task list and timer controls": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696389407
+      }
+    ],
+    "12.3 Attach event delegation listener for quick-links panel and add-link form": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696390502
+      }
+    ],
+    "12.4 Attach keyboard shortcut listeners": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696391574
+      }
+    ],
+    "13. Final checkpoint — ensure all tests pass": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696394130
+      }
+    ],
+    "2. Build HTML skeleton — static structure and all section anchors": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786696945680
+      }
+    ],
+    "4. Implement `StorageService`": [
+      {
+        "executionId": "5f3705ec-70e5-4d7d-93dc-54918e07478d",
+        "chatSessionId": "sess_ec23ff0f-940c-403b-aafd-7aef9e3934dc",
+        "timestamp": 1786697417589
+      }
+    ]
+  }
+}
