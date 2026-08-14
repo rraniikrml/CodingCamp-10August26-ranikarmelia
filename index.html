@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== TOP BAR ===== -->
+    <div class="topbar">
+      <span class="topbar-title">Life Dashboard</span>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
+        <span class="theme-icon" id="theme-icon">🌙</span>
+        <span class="theme-label" id="theme-label">Dark</span>
+      </button>
+    </div>
+
+    <!-- ===== GREETING SECTION ===== -->
+    <section class="card greeting-card">
+      <div class="greeting-text">
+        <h1 id="greeting-message">Good morning!</h1>
+        <p id="greeting-date"></p>
+        <!-- Custom name row -->
+        <div class="greeting-name-row" id="greeting-name-row">
+          <span class="greeting-name-display" id="greeting-name-display"></span>
+          <button class="btn-name-edit" id="greeting-name-edit" aria-label="Edit your name">✏️</button>
+        </div>
+      </div>
+      <div class="greeting-clock" id="greeting-time"></div>
+    </section>
+
+    <div class="dashboard-grid">
+
+      <!-- ===== FOCUS TIMER SECTION ===== -->
+      <section class="card timer-card">
+        <h2 class="card-title">Focus Timer</h2>
+        <div class="timer-display" id="timer-display">25:00</div>
+        <div class="timer-label" id="timer-label">Ready to focus</div>
+        <div class="timer-controls">
+          <button class="btn btn-primary" id="timer-start">Start</button>
+          <button class="btn btn-secondary" id="timer-stop">Stop</button>
+          <button class="btn btn-ghost" id="timer-reset">Reset</button>
+        </div>
+      </section>
+
+      <!-- ===== TO-DO LIST SECTION ===== -->
+      <section class="card todo-card">
+        <div class="todo-header">
+          <h2 class="card-title">To-Do List</h2>
+          <!-- Sort controls -->
+          <div class="sort-controls">
+            <label for="sort-select" class="sort-label">Sort:</label>
+            <select id="sort-select" class="sort-select" aria-label="Sort tasks">
+              <option value="default">Default</option>
+              <option value="az">A → Z</option>
+              <option value="za">Z → A</option>
+              <option value="pending">Pending first</option>
+              <option value="done">Done first</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="todo-input-row">
+          <input
+            type="text"
+            id="todo-input"
+            class="todo-input"
+            placeholder="Add a new task..."
+            maxlength="120"
+          />
+          <button class="btn btn-primary" id="todo-add">Add</button>
+        </div>
+
+        <ul class="todo-list" id="todo-list">
+          <!-- Tasks rendered by JS -->
+        </ul>
+
+        <div class="todo-footer" id="todo-footer"></div>
+      </section>
+
+      <!-- ===== QUICK LINKS SECTION ===== -->
+      <section class="card links-card">
+        <h2 class="card-title">Quick Links</h2>
+
+        <div class="links-input-row">
+          <input
+            type="text"
+            id="link-name"
+            class="links-input"
+            placeholder="Label"
+            maxlength="30"
+          />
+          <input
+            type="url"
+            id="link-url"
+            class="links-input links-input-url"
+            placeholder="https://example.com"
+          />
+          <button class="btn btn-primary" id="link-add">Add</button>
+        </div>
+
+        <div class="links-grid" id="links-grid">
+          <!-- Link buttons rendered by JS -->
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ===== EDIT TASK MODAL ===== -->
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="modal">
+        <h3 class="modal-title">Edit Task</h3>
+        <input
+          type="text"
+          id="modal-input"
+          class="todo-input"
+          maxlength="120"
+        />
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="modal-save">Save</button>
+          <button class="btn btn-ghost" id="modal-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NAME EDIT MODAL ===== -->
+    <div class="modal-overlay" id="name-modal-overlay">
+      <div class="modal">
+        <h3 class="modal-title">What's your name?</h3>
+        <input
+          type="text"
+          id="name-modal-input"
+          class="todo-input"
+          placeholder="Enter your name..."
+          maxlength="40"
+        />
+        <div class="modal-actions">
+          <button class="btn btn-primary" id="name-modal-save">Save</button>
+          <button class="btn btn-ghost" id="name-modal-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
